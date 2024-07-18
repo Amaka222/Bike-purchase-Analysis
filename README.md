@@ -1,6 +1,6 @@
 # Bike-purchase-Analysis
 ![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)
-![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)
+![](motor-bike-picture.jpg)![](motor-bike-picture.jpg)
 ## Introduction/Overview
 The "Analysis on Bike Purchase" project aims to explore and understand the various demographic and socioeconomic factors that influence individuals' decisions to purchase bikes. By analyzing a diverse set of attributes, including income, marital status, gender, education, occupation, home ownership, car ownership, commute distance, region, and age, we seek to uncover patterns and trends that differentiate bike buyers from non-buyers.
 The insights gained from this analysis will be invaluable for businesses, marketers, and policymakers, enabling them to tailor their strategies to effectively target potential bike buyers. Additionally, this project will provide a comprehensive understanding of the key drivers behind bike purchases, facilitating more informed decision-making and strategy development in the bike retail industry.
@@ -26,8 +26,12 @@ o	Derived Columns: Created new columns such as "age range" to facilitate easier 
 3.	Verification and Quality Check:
 o	Validation: Ensured all transformations and calculations were accurately applied to the entire dataset.
 o	Review: Cross-checked transformed data against original sources to validate accuracy and consistency.
+
+Bike purchase raw data
 ![](Bike-purchase-raw-data.PNG)
+
 ![](bike-purchase-transfromed-data.PNG)
+Bike purchase transformed data
 ## Data Description
 The dataset contains information on individuals including demographic, socioeconomic, and behavioral attributes. The data include the following columns such as ID under ID we have description: Unique identifier for each individual. Then we have Marital Status which have marital status of the individual whether “married”, “single”. We have gender which descript as gender of the individual that is whether “male”, “Female”. Income is descripted as the annual income of the individual and the currency. Children is descripted as the number of children the individual has. Education has to do with the highest level of education attained by the individual whether “high school”, “partial college”, “bachelors”, “masters”, “PhD”. Occupation is the type of occupation the individual is engaged in whether “manual”, “clerical”, “skilled Manual”, “Professional”, “management”. Home Owner: Indicates whether the individual owns a home and we used “Yes”, “No” to indicate it. Cars: Number of cars owned by the individual. Commute Distance: Distance the individual commutes to work whether "0-1 Miles", "1-2 Miles", "2-5 Miles", "5-10 Miles", "10+ Miles". Region: Geographical region where the individual resides which are "Europe", "Pacific", "North America", "Asia", "Africa". Age: Age of the individual. Age Range: Categorization of age into ranges whether "Youth" (Below 40), "Adult" (40 and above). Purchased Bike: Indicates whether the individual has purchased a bike and we use "Yes", "No" to indicate it. This description provides an overview of the dataset's structure, types of data contained, and the possible values for categorical variables. It is useful for understanding the dataset and preparing for further analysis and visualization.
 ## Problem Statement
@@ -94,8 +98,11 @@ o	2-5 Miles: 162
 o	5-10 Miles: 138
 •	Summary:
 o	Insight: The highest number of bike purchases are among those with a commute distance of 0-1 miles (306), indicating that shorter commutes may encourage bike purchases. As the commute distance increases, the number of bike purchases decreases, suggesting that longer distances may discourage biking. This pattern highlights the importance of proximity in bike purchase decisions.
+
 ![](bike-pivotable.PNG)
+
 ![](bike-dashboard.PNG)
+
 ## Findings/Result
 1.	Balanced Gender Appeal: Biking appeals equally to males and females, suggesting that marketing efforts can be gender-neutral.
 2.	Marital Status Impact: Married individuals are a significant demographic for bike purchases, possibly due to family-oriented needs.
