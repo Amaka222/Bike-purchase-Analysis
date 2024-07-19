@@ -11,9 +11,10 @@ By combining Excel for robust data cleaning and transformation with Power BI for
 1.	Excel for Data Cleaning and Transformation:
 o	Data Cleaning: Excel will be used to clean the raw data by removing duplicates, correcting errors, and ensuring consistency across the dataset. Tools. like filters, sorting, and conditional formatting will aid in identifying and rectifying issues.
 o	Data Transformation: Excel's capabilities, such as pivot tables, functions like IF statements, and data validation, will facilitate transforming the data into a structured format suitable for analysis. This step involves aggregating, summarizing, and organizing the data to prepare it for further analysis in Power BI.
-2.	Power BI for Analysis and Visualization:
-o	Data Analysis: Power BI will handle the deeper analysis tasks. This includes creating different data tables, performing calculations using DAX (Data Analysis Expressions), and deriving insightful metrics such as average purchase age, regional buying trends, and correlation between income and purchase likelihood.
-o	Visualization: Power BI's strength lies in its ability to create interactive and visually compelling dashboards and reports. You'll use it to generate various charts (like bar charts, line graphs), maps, and slicers that allow stakeholders to explore the data dynamically. This facilitates presenting key findings and trends effectively.
+o	Data Analysis: Calculate measures like mean, median, mode, and standard deviation. Use: Formulas > More Functions > Statistical. Sort and filter data to identify patterns or outliers. Use: Data > Sort & Filter. Create pivot tables and charts for deeper analysis. Use: Insert > PivotTable and Insert > Charts.
+o	Visualization: Create various types of charts to visualize data. Use: Insert > Charts. Common charts: Bar Chart, Pie Chart, Line Chart, Scatter Plot. Add slicers to pivot tables for interactive filtering. Use: PivotTable Tools > Analyze > Insert Slicer. Create charts from pivot tables to dynamically visualize data.
+o	Use: Insert > PivotChart. Combine multiple charts and tables into a dashboard for a comprehensive view. Use: Multiple sheets with linked charts and pivot tables
+
 # Data Cleaning and Transformation 
 Steps Taken:
 1.	Data Cleaning:
